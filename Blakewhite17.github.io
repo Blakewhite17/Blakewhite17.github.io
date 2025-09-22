@@ -1,10 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blake White | Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f4f4f9;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #fff;
+      text-decoration: none;
+    }
+    section {
+      padding: 40px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #222;
+    }
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello, I’m Blake White 👋</h1>
-  <p>Welcome to my portfolio site!</p>
+
+  <header>
+    <h1>Blake White</h1>
+    <p>Data Analyst | Python, SQL & Excel | Turning Data into Insights </p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+     <p>Hello! I’m Blake, an aspiring data analyst with a strong foundation in Python, SQL, and Excel. 
+     I’ve been building skills through projects and courses like Google Data Analytics, Kaggle, and DataCamp, 
+     focusing on turning raw data into clear insights.</p>
+  <p>I’m especially interested in data visualization, storytelling with data, and applying analytics 
+     to support decision-making in real-world businesses.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Project 1:</strong> Description of a project you’ve worked on.</li>
+      <li><strong>Project 2:</strong> Description of another project.</li>
+      <li><strong>Project 3:</strong> More details on something you’re proud of.</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>📧 Email: <a href="mailto:ballwhite13@gmail.com">ballwhite13@gmail.com</a></p>
+    <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/blake-white31500/" target="_blank">linkedin.com/in/yourlinkedin</a></p>
+    <p>💻 GitHub: <a href="https://github.com/Blakewhite17" target="_blank">github.com/Blakewhite17</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Blake White</p>
+  </footer>
+
 </body>
 </html>
+
